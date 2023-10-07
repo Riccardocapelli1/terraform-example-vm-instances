@@ -17,7 +17,10 @@
 ############################
 ############################
 
+#
+#``` sh
 # mkdir -p modules/instances modules/storage && touch main.tf variables.tf modules/instances/instances.tf modules/instances/outputs.tf modules/instances/variables.tf modules/storage/storage.tf modules/storage/outputs.tf modules/storage/variables.tf
+#```
 
 ### variables.tf
 variable "project_id" {

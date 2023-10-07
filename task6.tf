@@ -1,5 +1,6 @@
 #task6
 ##main.tf
+# change to the version of google terraform needed
 terraform {
   required_providers {
     google = {
