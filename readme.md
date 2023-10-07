@@ -2,6 +2,9 @@
 
 You are a cloud engineer intern for a new startup. For your first project, your new boss has tasked you with creating infrastructure in a quick and efficient manner and generating a mechanism to keep track of it for future reference and changes. You have been directed to use Terraform to complete the project.
 
+## My solution
+This is my solution to the lab by google. In this lab, I started by importing two pre-configured VMs into Terraform and creating a Cloud Storage bucket to configure your backend. Then, added another instance and practiced modifying and updating the resource configurations within modules. Lastly, I used a module from the Terraform Registry to create a VPC with two subnets, connected the instances to it, and created a firewall rule to allow connections between them.
+
 ## Task 1. Create the configuration files
 
 In Cloud Shell, create your Terraform configuration files and a directory structure that resembles the following:
@@ -106,7 +109,7 @@ Navigate to Network Intelligence > Connectivity Tests. Run a connectivity test o
 
 ## Congratulations!
 
-If you managed to import, create, modify, and configure the architecture within the allotted time, you've shown great competency in your Terraform skills! In this lab, you started by importing two pre-configured VMs into Terraform and creating a Cloud Storage bucket to configure your backend. You then added another instance and practiced modifying and updating the resource configurations within your modules. Lastly, you used a module from the Terraform Registry to create a VPC with two subnets, connected the instances to it, and created a firewall rule to allow connections between them.
+If you managed to import, create, modify, and configure the architecture within the allotted time, you've shown great competency in your Terraform skills.
 
 This self-paced lab is part of the Automating Infrastructure on Google Cloud with Terraform quest.
 
